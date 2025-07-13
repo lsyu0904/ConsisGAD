@@ -82,28 +82,5 @@ python main.py --config config/reddit.yml --runs 5
 - **超参数设置**：严格按照论文 config 文件设置。
 
 
----
 
-## 5. 开源仓库结构建议
 
-```
-ConsisGAD-reproduce/
-├── README.md
-├── requirements.txt
-├── data/
-│   └── 数据集脚本与说明
-├── config/
-│   └── 各数据集参数
-├── modules/
-│   └── 数据加载、评估等
-├── main.py
-├── models.py
-├── results/
-│   └── 复现实验结果.csv
-└── scripts/
-    └── 一键运行与评估脚本
-```
-
-## 6. 结论
-
-本项目已完成 ConsisGAD 论文的代码复现与可重复实验，能在基准数据集上对比原论文结果，并用 AUROC、AUPRC、Rec@K 三项指标展示模型性能。 
