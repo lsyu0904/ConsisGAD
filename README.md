@@ -46,39 +46,16 @@
 | weibo       | 0.947   | 0.830   | 0.863   |
 | yelp        | 0.762   | 0.367   | 0.645   |
 
-## 3. 运行方法
+## 3. 运行方法
 
 以 YelpChi 为例，运行 5 次实验：
 
-```bash
 python main.py --config config/amazon.yml --runs 5
 python main.py --config config/reddit.yml --runs 5
 
-```
-
-其他数据集只需更换 `--config` 参数。
----
-
-- **Amazon、YelpChi**：DGL 内置，需科学上网或手动下载 `FraudAmazon.zip`、`FraudYelp.zip`，解压到 `data/` 目录。
-- **T-Finance、T-Social**：从 [官方链接](https://github.com/squareRoot3/Rethinking-Anomaly-Detection) 下载，解压到 `data/` 目录。
-
----
-
-## 3. 运行方法
-
-以 YelpChi 为例，运行 5 次实验：
-
-```bash
-python main.py --config config/amazon.yml --runs 5
-python main.py --config config/reddit.yml --runs 5
-
-```
-
 其他数据集只需更换 `--config` 参数。
 
----
-
-## 4. 性能差异分析
+## 4. 性能差异分析
 
 - **硬件/软件环境差异**：如论文用 A100 GPU，本地为 CPU 或其他 GPU，可能导致训练速度和结果有差异。
 - **随机种子**：多次实验取平均，减少偶然性。
