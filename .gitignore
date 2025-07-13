@@ -1,0 +1,7 @@
+# 精确排除找到的大文件
+/ConsisGAD-main/data/dgraphfin.mat
+/ConsisGAD-main/data/elliptic.mat
+/ConsisGAD-main/data/tfinance.mat
+/ConsisGAD-main/data/tsocial.mat
+/ConsisGAD-main/data/amazon_1e446145/Amazon.mat
+/ConsisGAD-main/data/amazon_1e446145/amazon_dgl_graph_a0d9c83b.bin
